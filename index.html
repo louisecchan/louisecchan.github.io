@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="Description"
+      content="Portfolio site of Louise Chan, a frontend developer and chocolate connoisseur."
+    />
+    <title>Louise Chan — Frontend Developer</title>
+    <!-- open graph -->
+    <meta
+      property="og:title"
+      content="Louise Chan&#39;s Personal Website: louisechan.github.io"
+    />
+    <meta
+      property="og:description"
+      content="Portfolio site of Louise Chan, a frontend developer and chocolate connoisseur."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://louisechan.github.io/" />
+    <meta property="og:image" content="./assets/open-graph.png" />
+    <!--favicon-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+    <!--favicon-->
+    <link rel="stylesheet" href="./files/bulma.min.css" />
+    <link rel="stylesheet" href="./files/style.css" />
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
+    <link rel="stylesheet" href="./files/all.css" />
+    <link rel="stylesheet" href="./files/hover.css" />
+
+    <!--Google Analytics-->
+    <script async="" src="./files/analytics.js"></script>
+    <script>
+      function copyToClipboard(element) {
+        navigator.clipboard
+          .writeText("info@louisechan.co")
+          .then(() => {
+            document.getElementById(element).innerHTML = "email copied!";
+            setTimeout(function () {
+              document.getElementById(element).innerHTML = "Get in touch";
+            }, 5000);
+          })
+          .catch(() => {
+            alert("something went wrong");
+          });
+      }
+
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-23719072-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <style>
+      .social a {
+        font-family: product, sans-serif;
+        font-size: 1.066em;
+        line-height: 1.154em;
+        display: block;
+        padding: 1px 0;
+        transition: 0.2s;
+      }
+    </style>
+  </head>
+  <body
+    class="hero is-fullheight"
+    id="top"
+    data-new-gr-c-s-check-loaded="14.1094.0"
+    data-gr-ext-installed=""
+  >
+    <section class="columns hero-body">
+      <section class="column section">
+        <div class="container">
+          <div class="typewriter title is-1">
+            <h1>Hey! I'm Louise.</h1>
+          </div>
+          <h2 class="subtitle is-2">
+            Your friendly neighborhood
+            <strong>frontend developer </strong><br />and chocolate connoisseur.
+          </h2>
+          <div class="flex jus">
+            <div class="social">
+              <p>
+                <span class="row">
+                  <span data-emergence="visible">SOCIAL</span>
+                </span>
+              </p>
+              <a href="https://github.com/louisecchan" target="_blank">
+                <span class="row">
+                  <span data-emergence="visible">Github </span>
+                </span></a
+              >
+              <a href="https://www.linkedin.com/in/louisecchan" target="_blank">
+                <span class="row">
+                  <span data-emergence="visible">Linkedin</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="columns hero-body">
+      <section class="column section">
+        <div class="container">
+          <h2 class="title is-2">Projects</h2>
+          <div class="columns">
+            <div class="column hvr-float">
+              <div class="card hvr-sweep-to-bottom">
+                <div class="card-content">
+                  <div class="content">
+                    <h3 class="title is-3">
+                      <a
+                        href="https://github.com/scrabill/food-or-foe-react"
+                        target="_blank"
+                        >Food or Foe</a
+                      >
+                    </h3>
+                    <p>
+                      A react based game to correctly guess if an emoji is or is
+                      not a food.
+                    </p>
+                    <em>React, Ruby on Rails (API), Redux</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column hvr-float">
+              <div class="card hvr-sweep-to-bottom">
+                <div class="card-content">
+                  <div class="content">
+                    <h3 class="title is-3">
+                      <a href="http://louisechan.com/oh-hex" target="_blank"
+                        >Oh Hex!</a
+                      >
+                    </h3>
+                    <p>
+                      Randomly generates and displays a new hex color on each
+                      click.
+                    </p>
+                    <em>Javascript, HTML, CSS</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column hvr-float">
+              <div class="card hvr-sweep-to-bottom">
+                <div class="card-content">
+                  <div class="content">
+                    <h3 class="title is-3">
+                      <a
+                        href="https://github.com/scrabill/central-perk"
+                        target="_blank"
+                        >Central Perk</a
+                      >
+                    </h3>
+                    <p>
+                      A Ruby on Rails, point-of-service application for a coffee
+                      shop.
+                    </p>
+                    <em>Ruby on Rails, oAuth</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-third hvr-float">
+              <div class="card hvr-sweep-to-bottom">
+                <div class="card-content">
+                  <div class="content">
+                    <h3 class="title is-3">
+                      <a href="http://halloweenti.me/" target="_blank"
+                        >Halloweenti.me</a
+                      >
+                    </h3>
+                    <p>
+                      A vanilla Javascript countdown to the spookiest day of the
+                      year.
+                    </p>
+                    <em>CSS Animations, Javascript, Netlify</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-third hvr-float">
+              <div class="card hvr-sweep-to-bottom">
+                <div class="card-content">
+                  <div class="content">
+                    <h3 class="title is-3">
+                      <a
+                        href="http://www.louisechan.com/focused-breathing"
+                        target="_blank"
+                        >Focused Breathing</a
+                      >
+                    </h3>
+                    <p>
+                      A CSS Animation to help with focused breathing exercises.
+                    </p>
+                    <em>CSS Animations, CSS Grid, @keyframes</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-third hvr-float">
+              <div class="card hvr-sweep-to-bottom">
+                <div class="card-content">
+                  <div class="content">
+                    <h3 class="title is-3">
+                      <a
+                        href="http://louisechan.com/bubble-wrap"
+                        target="_blank"
+                        >Bubble Wrap</a
+                      >
+                    </h3>
+                    <p>
+                      Release some stress by clicking or touching to pop
+                      never-ending virtual bubbles!
+                    </p>
+                    <em>React, HTML, CSS, Netlify</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="content has-text-centered">
+              <p>Have a project in mind? Feel free to drop me a line.</p>
+              <a
+                id="change-text"
+                onclick="copyToClipboard(&#39;change-text&#39;)"
+                >Get in touch</a
+              >
+              <p class="footer-text">
+                LOUISE CHAN ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                | Made with 💙 in Oslo
+              </p>
+            </div>
+          </footer>
+          <div></div>
+        </div>
+      </section>
+    </section>
+  </body>
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
+</html>

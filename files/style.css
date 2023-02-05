@@ -1,0 +1,218 @@
+@font-face {
+  font-family: questrial;
+  src: url(../assets/fonts/Questrial-Regular.ttf);
+}
+
+@font-face {
+  font-family: product;
+  src: url(../assets/fonts/Product.ttf);
+}
+
+:root {
+  --primary-color: #0f4c81;
+  --secondary-color: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 500px;
+  display: flex;
+}
+
+/* Typewriter Style*/
+.typewriter h1 {
+  color: #111111;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 10 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Structure */
+
+.card {
+  border-top: 3px solid var(--primary-color);
+}
+
+/* Links */
+
+a,
+a:visited,
+a:active {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3ddc84;
+}
+
+.content a:hover {
+  color: #ffd60a;
+}
+
+.social a {
+  font-family: questrial, sans-serif;
+  font-size: 1.066em;
+  line-height: 1.154em;
+  display: block;
+  padding: 1px 0;
+  transition-delay: 0s;
+}
+
+nav a,
+nav a:visited,
+nav a:hover,
+nav a:active,
+.btn a,
+.btn a:visited,
+.btn a:hover,
+.btn a:active {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+a.fab,
+a.fab:visited,
+a.fab:hover,
+a.fab:active {
+  border-bottom: none;
+}
+
+/* Buttons */
+
+.btn {
+  width: 100%;
+}
+
+a.btn {
+  border-color: #c2185b;
+}
+
+.btn-primary {
+  background-color: #c2185b;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #c2185b;
+}
+
+a.button.is-link {
+  background-color: var(--primary-color);
+  display: block;
+  margin-bottom: 1em;
+}
+
+.button.is-link.is-active,
+.button.is-link:active,
+a.button.is-link:hover {
+  background-color: #7e16c4;
+  border-color: transparent;
+  color: #fff;
+}
+
+/* Typography */
+
+h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+/* Structure */
+
+jumbotron {
+  background-color: #ffffff;
+}
+
+nav {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  height: 100px;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.jus {
+  justify-content: space-between;
+}
+
+.row {
+  overflow: hidden;
+  font-size: inherit;
+}
+
+.row > span[data-emergence="hidden"] {
+  transform: translate(0, 100%);
+}
+.row > span[data-emergence="visible"] {
+  transform: translate(0, 0);
+}
+
+.social p {
+  font-family: product, sans-serif;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+/* Lists */
+li {
+  padding-bottom: 10px;
+}
+
+#links {
+  max-width: 600px;
+}
+
+/* Media Queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  ...;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .btn {
+    width: 33%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...;
+}
