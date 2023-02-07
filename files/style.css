@@ -22,6 +22,10 @@ body {
   display: flex;
 }
 
+p {
+  max-width: 400px;
+}
+
 /* Typewriter Style*/
 .typewriter h1 {
   color: #111111;
@@ -211,31 +215,4 @@ li {
 
 #links {
   max-width: 600px;
-}
-
-/* Media Queries */
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  ...;
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .btn {
-    width: 33%;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  ...;
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  ...;
 }
