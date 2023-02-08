@@ -34,7 +34,7 @@
       sizes="16x16"
       href="./assets/favicon_io/favicon-16x16.png"
     />
-    <link rel="stylesheet" href="./files/bulma.min.css" />
+    <link rel="stylesheet" href="./files/bootstrap.min.css" />
     <link rel="stylesheet" href="./files/style.css" />
     <link rel="stylesheet" href="./files/hover.css" />
 
@@ -93,164 +93,97 @@
       }
     </style>
   </head>
-  <body class="hero is-fullheight" id="top">
-    <section class="columns hero-body">
-      <section class="column section">
-        <div class="container">
-          <div class="title is-1 typewriter">
-            <h1>Hey! I'm Louise.</h1>
-          </div>
-          <div class="subtitle is-2 text-fade-up">
-            <h2>
-              Your friendly neighborhood <strong>frontend developer </strong>and
-              chocolate connoisseur.
-            </h2>
-          </div>
-          <div class="flex jus">
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <section class="introduction">
+            <div class="typewriter">
+              <h1>Hey! I'm Louise.</h1>
+            </div>
+            <div class="text-fade-up">
+              <h2>
+                Your friendly neighborhood
+                <strong>frontend developer </strong>and chocolate connoisseur.
+              </h2>
+            </div>
+
             <div class="social">
               <p>
                 <span class="row">
-                  <span data-emergence="visible">SOCIAL</span>
+                  <span>SOCIAL</span>
                 </span>
               </p>
               <a href="https://github.com/louisecchan" target="_blank">
                 <span class="row">
-                  <span data-emergence="visible">Github </span>
+                  <span>Github </span>
                 </span></a
               >
               <a href="https://www.linkedin.com/in/louisecchan" target="_blank">
                 <span class="row">
-                  <span data-emergence="visible">Linkedin</span>
+                  <span>Linkedin</span>
                 </span>
               </a>
             </div>
+          </section>
+        </div>
+      </div>
+
+      <section class="projects">
+        <div class="row">
+          <h2 class="projects-title">Projects</h2>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <h3><a href="#">Findr</a></h3>
+            <p>
+              A React-based app to find you a meal buddy based on shared
+              interest in a restaurant.
+            </p>
+            <em>React, Ruby on Rails (API), Redux</em>
+          </div>
+          <div class="col-4">
+            <h3><a href="#">Shoplify</a></h3>
+            <p>
+              A fully functional eCommerce application integrated with Stripe.
+            </p>
+            <em>React, Javascript, HTML, CSS</em>
+          </div>
+          <div class="col-4">
+            <h3><a href="#">Central Perk</a></h3>
+            <p>
+              A Ruby on Rails, point-of-service application for a coffee shop.
+            </p>
+            <em>Ruby on Rails, oAuth</em>
           </div>
         </div>
-      </section>
-    </section>
-
-    <section class="columns hero-body">
-      <section class="column section">
-        <div class="container">
-          <h2 class="title is-2">Projects</h2>
-          <div class="columns">
-            <div class="column is-third hvr-float">
-              <div class="card hvr-sweep-to-bottom">
-                <div class="card-content">
-                  <div class="content">
-                    <h3 class="title is-3">
-                      <a
-                        href="https://github.com/louisecchan/Meal-Search-API-Vanilla-JS"
-                        target="_blank"
-                        >Food or Foe</a
-                      >
-                    </h3>
-                    <p>
-                      A react based game to correctly guess if an emoji is or is
-                      not a food.
-                    </p>
-                    <em>React, Ruby on Rails (API), Redux</em>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-third hvr-float">
-              <div class="card hvr-sweep-to-bottom">
-                <div class="card-content">
-                  <div class="content">
-                    <h3 class="title is-3">
-                      <a href="http://louisechan.com/oh-hex" target="_blank"
-                        >Oh Hex!</a
-                      >
-                    </h3>
-                    <p>
-                      Randomly generates and displays a new hex color on each
-                      click.
-                    </p>
-                    <em>Javascript, HTML, CSS</em>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-third hvr-float">
-              <div class="card hvr-sweep-to-bottom">
-                <div class="card-content">
-                  <div class="content">
-                    <h3 class="title is-3">
-                      <a
-                        href="https://github.com/louisecchan/central-perk"
-                        target="_blank"
-                        >Central Perk</a
-                      >
-                    </h3>
-                    <p>
-                      A Ruby on Rails, point-of-service application for a coffee
-                      shop.
-                    </p>
-                    <em>Ruby on Rails, oAuth</em>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-4">
+            <h3><a href="#">Reddit Cake Day</a></h3>
+            <p>
+              A Vanilla Javascript countdown to the most awesome day of the
+              year.
+            </p>
+            <em>CSS Animations, Javascript, Netlify</em>
           </div>
-          <div class="columns">
-            <div class="column is-third hvr-float">
-              <div class="card hvr-sweep-to-bottom">
-                <div class="card-content">
-                  <div class="content">
-                    <h3 class="title is-3">
-                      <a href="http://halloweenti.me/" target="_blank"
-                        >Halloweenti.me</a
-                      >
-                    </h3>
-                    <p>
-                      A vanilla Javascript countdown to the spookiest day of the
-                      year.
-                    </p>
-                    <em>CSS Animations, Javascript, Netlify</em>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-third hvr-float">
-              <div class="card hvr-sweep-to-bottom">
-                <div class="card-content">
-                  <div class="content">
-                    <h3 class="title is-3">
-                      <a
-                        href="https://github.com/louisecchan/Meditation-App"
-                        target="_blank"
-                        >Focused Breathing</a
-                      >
-                    </h3>
-                    <p>
-                      A CSS Animation to help with focused breathing exercises.
-                    </p>
-                    <em>CSS Animations, CSS Grid, @keyframes</em>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-third hvr-float">
-              <div class="card hvr-sweep-to-bottom">
-                <div class="card-content">
-                  <div class="content">
-                    <h3 class="title is-3">
-                      <a
-                        href="http://louisechan.com/bubble-wrap"
-                        target="_blank"
-                        >Bubble Wrap</a
-                      >
-                    </h3>
-                    <p>
-                      Release some stress by clicking or touching to pop
-                      never-ending virtual bubbles!
-                    </p>
-                    <em>React, HTML, CSS, Netlify</em>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-4">
+            <h3>
+              <a
+                href="https://github.com/louisecchan/Meditation-App"
+                target="_blank"
+                >It's Breathe O'Clock!</a
+              >
+            </h3>
+            <p>A CSS Animation to help with focused breathing exercises.</p>
+            <em>CSS Animations, CSS Grid, @keyframes</em>
+          </div>
+          <div class="col-4">
+            <h3><a href="#">Bubble Wrap</a></h3>
+            <p>
+              Release some anger by clicking or touching to pop never-ending
+              virtual bubbles.
+            </p>
+            <em>React, HTML, CSS, Netlify</em>
           </div>
         </div>
         <footer class="footer">
@@ -273,6 +206,6 @@
           </div>
         </footer>
       </section>
-    </section>
+    </div>
   </body>
 </html>
