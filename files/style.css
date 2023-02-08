@@ -8,6 +8,16 @@
   src: url(../assets/fonts/Product.ttf);
 }
 
+@font-face {
+  font-family: sanfrancisco;
+  src: url(../assets/fonts/San-Francisco.otf);
+}
+
+@font-face {
+  font-family: sanfrancisco-light;
+  src: url(../assets/fonts/San-Francisco-Light.otf);
+}
+
 :root {
   --primary-color: #0f4c81;
   --secondary-color: #111111;
@@ -18,28 +28,108 @@ html {
 }
 
 body {
-  min-width: 500px;
   display: flex;
 }
 
-h2 {
-  max-width: 850px;
+div {
+  display: block;
 }
 
 p {
   max-width: 400px;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Structure */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-4 {
+  padding-bottom: 2.5rem;
+  padding-right: 3.5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.jus {
+  justify-content: space-between;
+}
+
+.col-4 {
+  padding-top: 1rem;
+}
+
+.card {
+  border-color: transparent;
+  padding: 1rem;
+}
+
+.has-text-centered {
+  text-align: center !important;
+}
+
+.social p {
+  font-family: product, sans-serif;
+  font-size: calc(16rem / 16);
+  opacity: 0.5;
+  padding-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.introduction,
+.projects {
+  padding: 5.5rem 2rem 0.5rem;
+}
+
+/* Links */
+
+a,
+a:visited,
+a:active {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3ddc84;
+}
+
+.content a:hover {
+  color: #ffd60a;
+}
+
+.social a {
+  font-family: questrial, sans-serif;
+  font-size: calc(17rem / 16);
+  line-height: calc(18rem / 16);
+  display: block;
+  padding: 1px 0;
+}
+
 /* Typewriter Style */
 .typewriter h1 {
-  color: #111111;
+  color: var(--secondary-color);
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 10 auto; /* Gives that scrolling effect as the typing happens */
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-/* The typing effect */
+/* The Typing Effect */
 @keyframes typing {
   from {
     width: 0;
@@ -72,88 +162,44 @@ p {
   }
 }
 
-/* Structure */
-
-.card {
-  border-top: 3px solid var(--primary-color);
-}
-
-/* Links */
-
-a,
-a:visited,
-a:active {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-a:hover {
-  color: #3ddc84;
-}
-
-.content a:hover {
-  color: #ffd60a;
-}
-
-.social a {
-  font-family: questrial, sans-serif;
-  font-size: 1.066em;
-  line-height: 1.154em;
-  display: block;
-  padding: 1px 0;
-  transition-delay: 0s;
-}
-
 /* Typography */
 
-h1 {
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
+h1,
 h2 {
   color: var(--secondary-color);
 }
 
-/* Structure */
-
-jumbotron {
-  background-color: #ffffff;
+h1 {
+  font-family: sanfrancisco, sans-serif;
+  font-weight: bold;
+  font-size: calc(48rem / 16);
+  letter-spacing: -0.05rem;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
+h2 {
+  font-family: sanfrancisco-light, sans-serif;
+  font-weight: lighter;
+  max-width: 880px;
+  font-size: calc(40rem / 16);
 }
 
-.jus {
-  justify-content: space-between;
+.projects-title {
+  font-weight: 500;
+  color: #363636;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0rem;
 }
 
-.row {
-  overflow: hidden;
-  font-size: inherit;
+footer {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: #4a4a4a;
+  background-color: #fff;
+  padding-top: 3.5rem;
 }
 
-.row > span[data-emergence="hidden"] {
-  transform: translate(0, 100%);
-}
-.row > span[data-emergence="visible"] {
-  transform: translate(0, 0);
-}
-
-.social p {
-  font-family: product, sans-serif;
-  font-size: 16px;
-  opacity: 0.5;
-}
-
-/* Lists */
-li {
-  list-style: none;
-  padding-bottom: 10px;
-}
-
-#links {
-  max-width: 600px;
+.footer-text {
+  font-size: calc(12rem / 16);
+  padding: 1.8rem;
 }
