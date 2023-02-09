@@ -50,32 +50,10 @@ ul {
 
 /* Structure */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.col-4 {
-  padding-bottom: 2.5rem;
-  padding-right: 3.5rem;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.jus {
-  justify-content: space-between;
-}
-
 .col-4 {
   padding-top: 1rem;
-}
-
-.card {
-  border-color: transparent;
-  padding: 1rem;
+  padding-bottom: 2.5rem;
+  padding-right: 3.5rem;
 }
 
 .has-text-centered {
@@ -120,7 +98,7 @@ a:hover {
   padding: 1px 0;
 }
 
-/* Typewriter Style */
+/* Introduction Animation */
 .typewriter h1 {
   color: var(--secondary-color);
   overflow: hidden; /* Ensures the content is not revealed until the animation */
