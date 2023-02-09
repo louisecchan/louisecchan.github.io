@@ -52,11 +52,6 @@ ul {
 
 /* Structure */
 
-.kontainer {
-  height: 100%;
-  display: flex;
-}
-
 .project {
   padding-top: 1rem;
   padding-bottom: 2.5rem;
@@ -157,7 +152,7 @@ h2 {
 h1 {
   font-family: sanfrancisco, sans-serif;
   font-weight: bold;
-  font-size: 7vh;
+  font-size: 3rem;
   letter-spacing: -0.05rem;
 }
 
@@ -165,7 +160,7 @@ h2 {
   font-family: sanfrancisco-light, sans-serif;
   font-weight: lighter;
   max-width: 880px;
-  font-size: 5.8vh;
+  font-size: 2.5rem;
 }
 
 .projects-title {
@@ -177,7 +172,7 @@ h2 {
 
 footer {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 2.3vh;
   line-height: 2.5rem;
   color: #4a4a4a;
   background-color: #fff;
@@ -185,6 +180,6 @@ footer {
 }
 
 .footer-text {
-  font-size: calc(12rem / 16);
+  font-size: 1.75vh;
   padding: 1.8rem;
 }
