@@ -427,6 +427,8 @@ a:hover {
 .page-wrapper {
   position: relative;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-wrapper.hidden-overflow {
@@ -468,6 +470,40 @@ a:hover {
 .section-1.hinge {
   background-color: #fff;
   margin-top: 2.5rem;
+}
+
+.section-content-l {
+  background: #f8f8f8;
+  height: 40vh;
+  width: 63vw;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-wrap: wrap;
+}
+
+.section-content-r {
+  background: #f8f8f8;
+  height: 45vh;
+  margin-top: 1.5rem;
+  text-wrap: wrap;
+}
+
+.section-title {
+  padding-top: 5rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  color: #bc3638;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.word-vomit {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
 #overview {
