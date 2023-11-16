@@ -482,6 +482,13 @@ a:hover {
   margin-top: 2.5rem;
 }
 
+.section-3 {
+  background-color: #000;
+  margin-top: 2.5rem;
+  margin-right: 3.5rem;
+  padding-top: 2.5rem;
+}
+
 .section-content-l {
   background: #f8f8f8;
   height: 40vh;
@@ -511,6 +518,10 @@ a:hover {
   text-transform: uppercase;
   text-align: left;
   text-wrap: wrap;
+}
+
+.section-title.dark-bg {
+  color: #d9c9d7;
 }
 
 .interview-title {
@@ -549,6 +560,9 @@ a:hover {
   margin-left: 10rem;
 }
 
+.tagline.dark {
+  color: #fffefd;
+}
 .numeric-text {
   margin-top: 2rem;
   text-align: center;
@@ -558,6 +572,10 @@ a:hover {
   font-weight: 300;
   letter-spacing: 0.03em;
   line-height: 1;
+}
+
+.numeric-text.dark-bg {
+  color: #d9c9d7;
 }
 
 .result-card-wrapper {
@@ -579,6 +597,10 @@ a:hover {
   letter-spacing: -0.05em;
 }
 
+.result-text.dark-bg {
+  color: #d9c9d7;
+}
+
 .description-1 {
   margin-top: 2rem;
 }
@@ -591,4 +613,14 @@ a:hover {
 .description-3 {
   margin-top: 2.5rem;
   margin-left: 15.8rem;
+}
+
+.description-4 {
+  margin-top: 2.5rem;
+  margin-left: 16.3rem;
+}
+
+.description-5 {
+  margin-top: 2.5rem;
+  margin-left: 20.5rem;
 }
