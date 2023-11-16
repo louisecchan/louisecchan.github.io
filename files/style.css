@@ -487,6 +487,18 @@ a:hover {
   margin-top: 2.5rem;
   margin-right: 3.5rem;
   padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.section-4 {
+  background-color: #f6f6f6;
+  justify-content: center;
+  display: flex;
+}
+
+.section-4.needfinding {
+  background: #fff;
+  justify-content: left;
 }
 
 .section-content-l {
@@ -623,4 +635,16 @@ a:hover {
 .description-5 {
   margin-top: 2.5rem;
   margin-left: 20.5rem;
+}
+
+.needfinding-content {
+  margin-top: 2rem;
+  color: #000;
+  text-transform: none;
+  font-weight: normal;
+  max-width: 60vw;
+}
+
+.needfinding-content.bulletpoint {
+  margin-top: 0rem;
 }
