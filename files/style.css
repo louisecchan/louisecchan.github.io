@@ -1,11 +1,11 @@
 @font-face {
-  font-family: questrial;
-  src: url(../assets/fonts/Questrial-Regular.ttf);
+  font-family: product;
+  src: url(../assets/fonts/Product.ttf);
 }
 
 @font-face {
-  font-family: product;
-  src: url(../assets/fonts/Product.ttf);
+  font-family: questrial;
+  src: url(../assets/fonts/Questrial-Regular.ttf);
 }
 
 @font-face {
@@ -16,6 +16,11 @@
 @font-face {
   font-family: sanfrancisco-light;
   src: url(../assets/fonts/San-Francisco-Light.otf);
+}
+
+@font-face {
+  font-family: tiempos-headline;
+  src: url(../assets/fonts/tiempos-headline.woff2);
 }
 
 @media screen and (max-width: 414px) {
@@ -379,6 +384,11 @@ a:hover {
 
 /* UX Page Related */
 
+#overview {
+  margin-left: 2rem;
+  margin-right: 1.5rem;
+}
+
 .ux-page {
   background-color: #fff;
   flex-direction: column;
@@ -482,6 +492,10 @@ a:hover {
   text-wrap: wrap;
 }
 
+.interview {
+  height: 50vh;
+}
+
 .section-content-r {
   background: #f8f8f8;
   height: 45vh;
@@ -493,9 +507,14 @@ a:hover {
   padding-top: 5rem;
   padding-left: 2rem;
   font-weight: bold;
-  color: #bc3638;
+  color: #682860;
   text-transform: uppercase;
   text-align: left;
+  text-wrap: wrap;
+}
+
+.interview-title {
+  padding-top: 7rem;
 }
 
 .word-vomit {
@@ -506,7 +525,60 @@ a:hover {
   font-size: 1.8rem;
 }
 
-#overview {
-  margin-left: 2rem;
-  margin-right: 1.5rem;
+.research-goals {
+  display: flex;
+  font-display: row;
+}
+
+.research-goals-outline {
+  margin-top: 2.5rem;
+}
+
+.background {
+  background-color: #fff;
+  width: 100vw;
+}
+
+.tagline {
+  font-family: "tiempos-headline", serif;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 3.8rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.numeric-text {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "tiempos-headline", serif;
+  color: #682860;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+
+.result-card-wrapper {
+  display: flex;
+  margin-left: 10rem;
+}
+
+.result-card {
+  margin-left: 6rem;
+  flex-direction: column;
+}
+
+.result-text {
+  margin-top: 1rem;
+  font-family: var(--bs-body-font-family), sans-serif;
+  color: #000;
+  font-size: 1.1rem;
+  text-align: left;
+  letter-spacing: -0.05em;
+}
+
+.description {
+  margin-top: 2rem;
 }
