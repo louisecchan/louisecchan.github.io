@@ -514,6 +514,13 @@ a:hover {
   padding-bottom: 4.5rem;
 }
 
+.section-6 {
+  background-color: #fff;
+  margin-right: 3.1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
 .section-content-l {
   background: #f8f8f8;
   height: 40vh;
@@ -753,4 +760,14 @@ a:hover {
   font-family: "tiempos-headline", serif;
   font-size: 2rem;
   color: #f8f8f8;
+}
+
+/* .user-needs-wrapper {
+  margin-left: -4rem;
+} */
+
+.affinity-map {
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 3.5rem;
 }
