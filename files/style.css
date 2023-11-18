@@ -521,6 +521,14 @@ a:hover {
   padding-bottom: 4.5rem;
 }
 
+.section-7 {
+  background-color: #000;
+  margin-top: 2.5rem;
+  margin-right: 3.1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
 .section-content-l {
   background: #f8f8f8;
   height: 40vh;
@@ -601,6 +609,26 @@ a:hover {
 
 .tagline.dark {
   color: #fffefd;
+}
+
+.needfinding-content {
+  margin-top: 2rem;
+  color: #000;
+  text-transform: none;
+  font-weight: normal;
+  max-width: 60vw;
+}
+
+.needfinding-content-1 {
+  margin-top: 1rem;
+  color: #000;
+  text-transform: none;
+  font-weight: normal;
+  max-width: 60vw;
+}
+
+.needfinding-content.bulletpoint {
+  margin-top: 0rem;
 }
 
 .needfinding-content.bulletpoint.tagline.light {
@@ -695,18 +723,6 @@ a:hover {
   margin-left: 20.5rem;
 }
 
-.needfinding-content {
-  margin-top: 2rem;
-  color: #000;
-  text-transform: none;
-  font-weight: normal;
-  max-width: 60vw;
-}
-
-.needfinding-content.bulletpoint {
-  margin-top: 0rem;
-}
-
 .gap-y-12 {
   row-gap: 3rem;
 }
@@ -767,7 +783,22 @@ a:hover {
 } */
 
 .affinity-map {
+  margin-top: 3rem;
+  /* margin-left: 10rem;
+  margin-right: 3.5rem; */
+}
+
+.affinity-map-2 {
+  margin-top: 2rem;
+  margin-left: -5rem;
+  margin-bottom: 2rem;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper.persona {
   margin-top: 5rem;
-  margin-left: 10rem;
-  margin-right: 3.5rem;
 }
