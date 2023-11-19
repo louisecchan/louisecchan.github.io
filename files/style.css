@@ -529,6 +529,13 @@ a:hover {
   padding-bottom: 4.5rem;
 }
 
+.section-8 {
+  background-color: #fff;
+  margin-right: 3.1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
 .section-content-l {
   background: #f8f8f8;
   height: 40vh;
@@ -634,6 +641,16 @@ a:hover {
 .needfinding-content.bulletpoint.tagline.light {
   margin-top: 5rem;
   margin-left: 6rem;
+}
+
+.needfinding-content.persona-text {
+  color: #f8f8f8;
+  margin-left: 2rem;
+}
+
+.needfinding-content.prototype {
+  color: #000000;
+  margin-left: 2rem;
 }
 
 .numeric-text {
@@ -801,4 +818,13 @@ a:hover {
 
 .image-wrapper.persona {
   margin-top: 5rem;
+}
+
+.persona-pic {
+  width: 75vw;
+}
+
+.wireframe {
+  margin-top: 5rem;
+  width: 60vw;
 }
