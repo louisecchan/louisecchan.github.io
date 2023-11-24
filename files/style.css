@@ -536,6 +536,14 @@ a:hover {
   padding-bottom: 4.5rem;
 }
 
+.section-9 {
+  background-color: #000;
+  margin-top: 2.5rem;
+  margin-right: 3.1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
 .section-content-l {
   background: #f8f8f8;
   height: 40vh;
@@ -832,4 +840,13 @@ a:hover {
 .wireframe-2 {
   margin-top: 4rem;
   width: 60vw;
+}
+
+.hi-fi {
+  width: 30vw;
+}
+
+#hi-fi-vid {
+  margin-top: 7rem;
+  width: 80vw;
 }
