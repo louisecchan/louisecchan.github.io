@@ -843,6 +843,11 @@ a:hover {
   width: 75vw;
 }
 
+.usability-testing-wrapper {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
 .wireframe {
   margin-top: 5rem;
   width: 60vw;
@@ -860,4 +865,14 @@ a:hover {
 #hi-fi-vid {
   margin-top: 7rem;
   width: 80vw;
+}
+
+.takeaways-text-wrapper {
+  margin-top: 4.5rem;
+  margin-left: 10rem;
+  margin-bottom: 10.5rem;
+}
+
+#takeaways-text {
+  max-width: 70vw !important;
 }
