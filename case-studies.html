@@ -19,6 +19,25 @@
     <link rel="stylesheet" href="./files/bootstrap.min.css" />
     <link rel="stylesheet" href="./files/style.css" />
     <link rel="stylesheet" href="./files/hover.css" />
+
+    <script>
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = reveals[i].getBoundingClientRect().top;
+          var elementVisible = 10;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal);
+    </script>
   </head>
   <body class="ux-page">
     <div class="split-content header-center">
@@ -38,62 +57,69 @@
     </div>
     <div class="page-wrapper ux">
       <div class="section-1 hinge">
-        <img
-          src="./assets/images/hinge-hero.png"
-          loading="lazy"
-          sizes="80vw"
-          height="520"
-          alt=""
-        />
-        <div id="overview">
-                <div class="case-study-outline ">
-                  <p class="slide-up-text-1">
-                    <strong>TYPE<br /></strong>UX Case Study
-                  </p>
-                  <p class="slide-up-text-2">‍<strong
-                      >DATE<br /></strong
-                    >Oct - Nov 2023<br />
-                  </p>
-                  <p class="slide-up-text-3">
-                   ‍<strong>TOOLS<br /></strong
-                    >Figma, Miro, Photoshop
-                  </p>
-                </div>
-                <div class="case-study-description">
-                  <p class="slide-up-text-4">
-                    <strong>PROBLEM STATEMENT<br /></strong>
-                    Hinge is a dating
-                    app whose mission statement is
-                    <strong>“designed to be deleted.”</strong> 
-                    The app is known
-                    for having users who are searching for serious
-                    relationships. <br /><br />
-                    It has great features to start a
-                    conversation, but
-                    <strong>not enough to keep it going.</strong> To foster
-                    meaningful connections, ‍a
-                    <strong>post-match "date" feature</strong> is proposed.<br />
-                  </p>
-                  <p class="slide-up-text-5">
-                    <strong
-                      >ROLE<br /></strong
-                    >Research, Ideation, Design, Prototype
-                  </p>    
-                </div>
-                <div class="section-content-r">
-                  <p class="section-title">Initial Design Question</p>
-                  <p class="word-vomit">
-                    How can we make the post-match experience more engaging?
-                
-                  </p>
-                </div>
-      </div>
+        <div class="row">
+       <div class="col">
+        <div class="parent-of-hero">
+          <img class="image1" src="./assets/images/hinge-logo-white-bg-cropped.gif"  loading="lazy">
+          <img
+            class="image2"
+            src="./assets/images/hinge-hero.png"
+            loading="lazy"
+            alt=""
+          />
+        </div> 
+       </div> 
 
+       <div class="col">
+          <div id="overview">
+            <div class="case-study-outline">
+              <p class="slide-up-text-1">
+                <strong>TYPE<br /></strong>UX Case Study
+              </p>
+              <p class="slide-up-text-2">
+               <strong>DATE<br /></strong >Oct - Nov 2023<br />
+              </p>
+              <p class="slide-up-text-3">
+                <strong>TOOLS<br /></strong>Figma, Miro, Photoshop
+              </p>
+            </div>
+            <div class="case-study-description">
+              <p class="slide-up-text-4">
+                <strong>PROBLEM STATEMENT<br /></strong>
+                Hinge is a dating
+                app whose mission statement is
+                <strong>“designed to be deleted.”</strong> 
+                The app is known
+                for having users who are searching for serious
+                relationships. <br /><br />
+                It has great features to start a
+                conversation, but
+                <strong>not enough to keep it going.</strong> To foster
+                meaningful connections, ‍a
+                <strong>post-match "date" feature</strong> is proposed.<br />
+              </p>
+              <p class="slide-up-text-5">
+                <strong>ROLE<br /></strong>Research, Ideation, Design, Prototype
+              </p>    
+            </div>
+          </div>  
+       </div>
+        </div>
+      </div>
+      <div class="row design-question">
+        <div class="col-1"></div>
+        <div class="col-2 section-content-r">
+          <p class="section-title">Initial Design Question</p>
+          <p class="word-vomit reveal">
+            How can we make the post-match experience more engaging?
+          </p>
+        </div>
+      </div>
     </div>
     <div class="research-goals">
     <div class="section-content-l interview">
         <p class="section-title interview-title">Interview And Observation</p>
-        <p class="word-vomit">
+        <p class="word-vomit reveal">
         What are people's attitudes to online dating apps?
         </p>
     </div>
@@ -113,7 +139,7 @@
     <div class="section-2">
       <div class="section-content-l background">
         <div class="section-title">Background and statistics • Secondary Research</div>
-        <div class="tagline">Building connections <br>and dating burnouts</div>
+        <div class="tagline reveal">Building connections <br>and dating burnouts</div>
         <br></br>
         <div class="result-card-wrapper-top">
           <div class="result-card-top numeric-text">76%<p class="result-text">of women</p></div>
@@ -135,7 +161,7 @@
         </div>
         <div class="section-3">
         <div class="section-title dark-bg">Background and statistics • Secondary Research</div>
-        <div class="tagline dark">So what's up with Hinge?</div>
+        <div class="tagline dark reveal">So what's up with Hinge?</div>
          <br></br>
         <div class="result-card-wrapper-top">
           <div class="result-card-top numeric-text dark-bg">40%<p class="result-text dark-bg">of women</p></div>
@@ -159,7 +185,7 @@
               <p class="needfinding-content bulletpoint"><strong>Interview tasks:</strong><br>1. Understanding what features matter when users dating online. <br>2. Finding out what they liked and disliked about the existing online dating experience.</p>
 
               <p class="needfinding-content bulletpoint"><strong>Participants: </strong><br>6 participants between the ages of 25 and 33, with a 50:50 male to female ratio.</p>
-              <p class="needfinding-content bulletpoint tagline light"><strong>Interview Questions:</strong></p>
+              <p class="needfinding-content bulletpoint tagline light reveal"><strong>Interview Questions:</strong></p>
               <div class="interview-questions">
                 <div class="result-card-wrapper-1">
                   <div class="result-card numeric-text interview-questions-number">01<p class="result-text">What motivated you to download and start using Hinge?</p></div>
@@ -181,7 +207,7 @@
         <div class="section-5">
               <div class="section-title dark-bg">NEEDFINDING INTERVIEW</div>
              <div class="user-needs-wrapper">
-              <div class="tagline dark">What the users said</div>
+              <div class="tagline dark reveal">What the users said</div>
               <div class="grid grid-cols-3 gap-y-12 gap-x-gutter">
                 <div class="user-needs-grid">
                   <h3 class="user-needs-title sans-lg-bold">
@@ -264,7 +290,7 @@
              <div class="section-title">Prototype • mid-fidelity</div>
                   <p class="needfinding-content prototype">After the Crazy 8's design sprint, a mid-fidelity wireframe was created. 
                     The user flow aimed to simplify the steps required to set up a date — to make the process as frictionless as possible.<br>
-                <div class="tagline">Early Stage Concept</div>
+                <div class="tagline reveal">Early Stage Concept</div>
                <div class="image-wrapper">
                <img class="wireframe" src="./assets/images/wireframe-text.png" loading="lazy"/></div>
                   <div class="image-wrapper">
@@ -273,7 +299,7 @@
         <div class="section-9">
              <div class="section-title dark-bg">Prototype • high-fidelity</div>
                   <p class="needfinding-content persona-text">The elements in the existing Hinge UI kit were employed.<br>
-                <div class="tagline dark">Ready for Usability Testing</div>
+                <div class="tagline dark reveal">Ready for Usability Testing</div>
    
               <div class="image-wrapper">
                 <video controls autoplay loop muted id="hi-fi-vid">
@@ -300,13 +326,15 @@
                 <br>3. All of the participants thought positively of the "Date" feature and would like to see it being implemented.
               </p>
              </div>
-             <div class="tagline">Takeaways</div> 
+             <div class="tagline reveal">Takeaways</div> 
               <div class="takeaways-text-wrapper">
                 <p id="takeaways-text">
                 Developing a feature for Hinge was an enjoyable experience, teaching me to work within the app's constraints and use its design patterns to maintain usability. 
                 Solid research was crucial, as it helped gather target data and lay a concrete foundation for further steps. 
                 Integrating more gamified elements into the feature could be an interesting next step.
                 </p>
+
+        <br />
               </div>
         </div>
         </div>
