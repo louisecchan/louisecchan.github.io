@@ -122,6 +122,21 @@ body {
   margin-left: 0.5rem;
 }
 
+.row-2 {
+  margin-left: 0.5rem;
+  display: flex;
+}
+
+.row-3 {
+  /* margin-left: 0.5rem; */
+  display: flex;
+}
+
+.row-4 {
+  margin-left: 0.9rem;
+  display: flex;
+}
+
 .row.design-question {
   margin-left: 2.8rem;
 }
@@ -689,8 +704,8 @@ a:hover {
 }
 
 .numeric-text-3 {
-  /* margin-left: -1rem; */
-  /* margin-right: 1rem; */
+  margin-left: 1rem;
+  margin-right: 4.45rem;
   margin-top: 2rem;
   font-size: 5rem;
   font-family: "tiempos-headline", serif;
@@ -728,12 +743,24 @@ a:hover {
 }
 
 .result-card-top-2 {
-  margin-left: 6rem;
+  margin-left: 6.5rem;
   margin-top: 0rem;
+}
+
+.result-card-top-2.right {
+  margin-left: 5.1rem;
+  margin-right: 0.3rem;
+  padding-right: 2.5rem;
 }
 
 .result-card-top-3 {
   margin-left: 1.6rem;
+}
+
+.result-card-top-4 {
+  margin-left: 1.4rem;
+  padding-left: 3rem;
+  /* display: inline-block !important; */
 }
 
 .result-card {
@@ -761,6 +788,10 @@ a:hover {
 
 .result-text.dark-bg {
   color: #d9c9d7;
+}
+
+.result-text.tinder {
+  margin-left: 1rem;
 }
 
 .description {
@@ -967,10 +998,6 @@ a:hover {
   }
 }
 
-/* .parent-of-hero {
-  position: relative;
-} */
-
 .image1 {
   width: 8.5vw;
   position: absolute;
@@ -989,11 +1016,49 @@ a:hover {
 
 .col-2 {
   flex: 0 0 35%; /* 35% width */
-  overflow: hidden;
-  animation: scrollText 10s linear infinite;
 }
 
-@property --num {
+.col-3 {
+  flex: 0 0 18%;
+}
+
+.col-4 {
+  flex: 0 0 18%;
+}
+
+.col-5 {
+  flex: 0 0 35%;
+}
+
+.col-6 {
+  flex: 0 0 25%;
+}
+
+.col-7 {
+  flex: 0 0 25%;
+}
+
+.col-8 {
+  flex: 0 0 35%;
+}
+
+.col-9 {
+  flex: 0 0 53%;
+}
+
+.col-10 {
+  flex: 0 0 35%;
+}
+
+.col-11 {
+  flex: 0 0 24.3%;
+}
+
+.col-12 {
+  flex: 0 0 65%;
+}
+
+/* @property --num {
   syntax: "<integer>";
   initial-value: 0;
   inherits: false;
@@ -1021,4 +1086,4 @@ a:hover {
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-}
+} */
