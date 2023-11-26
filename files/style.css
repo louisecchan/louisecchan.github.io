@@ -1,3 +1,49 @@
+@media screen and (max-width: 600px) {
+  .nav-menu a {
+    display: none;
+  }
+  .nav-menu a.icon {
+    float: right;
+    display: block;
+  }
+
+  .responsive {
+    display: block;
+  }
+
+  .image1 {
+    width: 25% !important;
+    left: 70px !important;
+    top: 104px !important;
+  }
+
+  .col-1.empty {
+    display: none !important;
+  }
+
+  .col-2 {
+    flex: 100% !important;
+  }
+
+  .col-2.section-content-r {
+    margin-left: -1.5rem !important;
+  }
+}
+
+@media (max-width: 810px) {
+  .col {
+    flex: 100%;
+  }
+
+  .image2 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+  }
+}
+
 :root {
   --ease: cubic-bezier(0.5, 0, 0.09, 1);
 }
@@ -120,6 +166,8 @@ body {
 
 .row {
   margin-left: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .row-2 {
@@ -478,11 +526,16 @@ a:hover {
 }
 
 .nav-menu {
+  overflow: hidden;
   color: #fff;
   text-align: right;
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
+}
+
+.nav-menu .icon {
+  display: none;
 }
 
 .nav-item-wrapper {
@@ -1020,6 +1073,10 @@ a:hover {
 .image2 {
   height: 73vh;
   z-index: 2;
+}
+
+.col.hero-image {
+  /* margin-right: 0.1rem; */
 }
 
 .col-1 {
