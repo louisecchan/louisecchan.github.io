@@ -1083,6 +1083,10 @@ a:hover {
   flex: 0 0 65%; /* 65% width */
 }
 
+.col-1.empty {
+  display: flex;
+}
+
 .col-2 {
   flex: 0 0 35%; /* 35% width */
 }
