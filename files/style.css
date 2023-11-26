@@ -770,7 +770,7 @@ a:hover {
 }
 
 .result-card.interview-questions-number {
-  margin-left: 1.8rem;
+  margin-left: 1.3rem;
   text-align: left;
   font-size: 3rem;
   width: 22vw;
@@ -1087,3 +1087,45 @@ a:hover {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 } */
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.fade-in-active {
+  opacity: 1 !important;
+}
+
+.fade-in-2 {
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition-delay: 1s;
+}
+
+.fade-in-2-active {
+  opacity: 1 !important;
+}
+
+.fade-in-3 {
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition-delay: 1.5s;
+}
+
+.fade-in-3-active {
+  opacity: 1 !important;
+}
