@@ -732,6 +732,10 @@ a:hover {
   margin-top: 0rem;
 }
 
+.result-card-top-3 {
+  margin-left: 1.6rem;
+}
+
 .result-card {
   flex-direction: row;
   margin-right: 1rem;
