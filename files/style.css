@@ -725,6 +725,11 @@ a:hover {
   color: #d9c9d7;
 }
 
+.numeric-text.dark-bg.typo {
+  color: #d9c9d7;
+  margin-right: 4.4rem;
+}
+
 .result-card-wrapper-1 {
   display: flex;
   margin-left: 0.6rem;
