@@ -1,4 +1,23 @@
 @media screen and (max-width: 600px) {
+  #word-vomit {
+    color: #000 !important;
+  }
+
+  .case-study-outline,
+  .case-study-description,
+  .research-goals-outline,
+  .tagline {
+    color: #000 !important;
+  }
+
+  .tagline.dark {
+    color: #fff !important;
+  }
+
+  .needfinding-content {
+    margin-bottom: 3rem !important;
+  }
+
   .nav-menu a {
     display: none;
   }
@@ -784,6 +803,7 @@ a:hover {
   background-color: #000;
   margin-top: 2.5rem;
   margin-right: 3.1rem;
+  margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
