@@ -15,11 +15,16 @@
   }
 
   .needfinding-content {
+    margin-left: ;
     margin-bottom: 3rem !important;
   }
 
   .needfinding-content.bulletpoint.tagline.light,
   .interview-questions {
+    margin-left: 0rem !important;
+  }
+
+  .needfinding-content.indented {
     margin-left: 0rem !important;
   }
 
@@ -41,6 +46,16 @@
     width: 65vw !important;
   }
 
+  .affinity-map {
+    width: 85vw !important;
+    margin-left: 1rem !important;
+  }
+
+  .affinity-map-2 {
+    width: 85vw !important;
+    margin-left: 1rem !important;
+  }
+
   .nav-menu a {
     display: none;
   }
@@ -59,7 +74,10 @@
     top: 104px !important;
   }
 
-  .section-3 {
+  .section-3,
+  .section-5,
+  .section-7,
+  .section-9 {
     margin-right: 1.5rem !important;
   }
 
@@ -789,7 +807,7 @@ a:hover {
 .section-3 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 3.5rem;
+  margin-right: 1.5rem;
   margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
@@ -809,7 +827,7 @@ a:hover {
 .section-5 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 3.1rem;
+  margin-right: 1.5rem;
   margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
@@ -825,7 +843,7 @@ a:hover {
 .section-7 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 3.1rem;
+  margin-right: 1.5rem;
   margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
@@ -841,7 +859,7 @@ a:hover {
 .section-9 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 3.1rem;
+  margin-right: 1.5rem;
   margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
