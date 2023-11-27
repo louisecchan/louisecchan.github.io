@@ -18,6 +18,20 @@
     margin-bottom: 3rem !important;
   }
 
+  .needfinding-content.bulletpoint.tagline.light,
+  .interview-questions {
+    margin-left: 0rem !important;
+  }
+
+  .result-card-wrapper-1,
+  .result-card-wrapper-2 {
+    flex-wrap: wrap !important;
+  }
+
+  .result-card-wrapper-2 {
+    width: 65vw !important;
+  }
+
   .nav-menu a {
     display: none;
   }
@@ -989,12 +1003,14 @@ a:hover {
 
 .result-card-wrapper-1 {
   display: flex;
+  /* flex-wrap: wrap; */
   margin-left: 0.6rem;
   width: 80vw;
 }
 
 .result-card-wrapper-2 {
   display: flex;
+  /* flex-wrap: wrap; */
   margin-left: 0.6rem;
   width: 60vw;
 }
