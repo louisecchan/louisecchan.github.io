@@ -1,6 +1,17 @@
 @media screen and (max-width: 600px) {
-  #word-vomit {
+  #word-vomit,
+  #takeaways-text {
     color: #000 !important;
+  }
+
+  #takeaways-text {
+    max-width: 90vw !important;
+  }
+
+  .takeaways-text-wrapper {
+    margin-left: 2rem !important;
+    margin-right: 1.5rem !important;
+    margin-bottom: 4rem !important;
   }
 
   .case-study-outline,
@@ -54,6 +65,16 @@
   .affinity-map-2 {
     width: 85vw !important;
     margin-left: 1rem !important;
+  }
+
+  .persona-pic {
+    margin-bottom: 4rem !important;
+  }
+
+  .wireframe,
+  .wireframe-2 {
+    width: 80vw !important;
+    margin-left: 2rem !important;
   }
 
   .nav-menu a {
@@ -1282,7 +1303,7 @@ a:hover {
 }
 
 #takeaways-text {
-  max-width: 70vw !important;
+  max-width: 70vw;
 }
 
 .slide-up-text-1 {
