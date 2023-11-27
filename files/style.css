@@ -17,6 +17,10 @@
     top: 104px !important;
   }
 
+  .section-3 {
+    margin-right: 1.5rem !important;
+  }
+
   .col-random-1 {
     flex: 63% !important;
     margin-left: 0.9rem !important;
@@ -69,6 +73,34 @@
     flex: 0 0 45% !important;
   }
 
+  .col-13 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-14 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-15 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-16 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-17 {
+    flex: 0 0 50% !important;
+  }
+
+  .col-18 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-19 {
+    flex: 0 0 50% !important;
+  }
+
   .numeric-text {
     font-size: 3rem !important;
   }
@@ -83,9 +115,18 @@
     margin-left: 0rem !important;
   }
 
+  .result-card-top.dark-bg {
+    /* margin-left: 0.5rem !important; */
+  }
+
   .result-card-top-2 {
     margin-top: 1rem !important;
     margin-left: 0.8rem !important;
+  }
+
+  .result-card-top-3 {
+    margin-top: -0.5rem !important;
+    margin-left: -3.5rem !important;
   }
 
   .result-card-top-4 {
@@ -95,6 +136,27 @@
     padding-left: 1rem !important;
   }
 
+  .result-card-top-5 {
+    margin-left: 0.5rem !important;
+    margin-right: 1rem !important;
+  }
+
+  .result-card-top-6 {
+    margin-left: 0.5rem !important;
+    margin-top: 0.1rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .result-card-top-7 {
+    margin-left: 1.2rem !important;
+    margin-top: 0.1rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .result-card-top-8 {
+    margin-left: 0.5rem !important;
+  }
+
   .result-card-wrapper-top {
     margin-left: 1rem !important;
   }
@@ -102,6 +164,15 @@
   .result-text.description-3 {
     margin-top: 1.2rem !important;
     margin-left: 0rem !important;
+  }
+
+  .description-4 {
+    margin-top: 1.8rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .description-5 {
+    margin-left: 5rem !important;
   }
 
   .result-text.tinder {
@@ -266,13 +337,32 @@ body {
 }
 
 .row-3 {
-  /* margin-left: 0.5rem; */
   display: flex;
   flex-wrap: wrap;
 }
 
 .row-4 {
   margin-left: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-5 {
+  margin-left: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.row-6 {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-7 {
+  margin-left: 0.4rem;
+  width: 90vw;
   display: flex;
   flex-wrap: wrap;
 }
@@ -658,6 +748,7 @@ a:hover {
   background-color: #000;
   margin-top: 2.5rem;
   margin-right: 3.5rem;
+  margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
@@ -677,6 +768,7 @@ a:hover {
   background-color: #000;
   margin-top: 2.5rem;
   margin-right: 3.1rem;
+  margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
@@ -707,6 +799,7 @@ a:hover {
   background-color: #000;
   margin-top: 2.5rem;
   margin-right: 3.1rem;
+  margin-left: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
@@ -907,12 +1000,31 @@ a:hover {
 }
 
 .result-card-top-3 {
-  margin-left: 1.6rem;
+  margin-left: 5.5rem;
 }
 
 .result-card-top-4 {
   margin-left: 1.4rem;
   padding-left: 3rem;
+}
+
+.result-card-top-5 {
+  margin-left: 5.5rem;
+  margin-right: -3.5rem;
+}
+
+.result-card-top-6 {
+  margin-left: 0rem;
+  margin-right: -3.5rem;
+  margin-top: 6rem;
+}
+
+.result-card-top-7 {
+  margin-left: 6.5rem;
+}
+
+.result-card-top-8 {
+  margin-left: 6.15rem;
 }
 
 .result-card {
@@ -966,12 +1078,16 @@ a:hover {
 
 .description-4 {
   margin-top: 2.5rem;
-  margin-left: 16.3rem;
+  margin-left: 7.25rem;
 }
 
 .description-5 {
   margin-top: 2.5rem;
-  margin-left: 20.5rem;
+  margin-left: 20rem;
+}
+
+.description-6 {
+  margin-top: 2.5rem;
 }
 
 .gap-y-12 {
@@ -1202,7 +1318,7 @@ a:hover {
 }
 
 .col-8 {
-  flex: 0 0 35%;
+  flex: 0 0 25%;
 }
 
 .col-9 {
@@ -1210,7 +1326,7 @@ a:hover {
 }
 
 .col-10 {
-  flex: 0 0 35%;
+  flex: 0 0 25%;
 }
 
 .col-11 {
@@ -1218,7 +1334,29 @@ a:hover {
 }
 
 .col-12 {
-  flex: 0 0 65%;
+  flex: 0 0 55%;
+}
+
+.col-13 {
+  flex: 0 0 25%;
+  margin-top: 3rem;
+}
+
+.col-14 {
+  flex: 0 0 25%;
+  margin-top: 3rem;
+}
+
+.col-15 {
+  flex: 0 0 40%;
+}
+
+.col-16 {
+  flex: 0 0 30%;
+}
+
+.col-17 {
+  flex: 0 0 50%;
 }
 
 .col-random-1 {
@@ -1269,4 +1407,8 @@ a:hover {
 
 .fade-in-3-active {
   opacity: 1 !important;
+}
+
+.result-card-top.numeric-text.dark-bg.col-15 {
+  margin-left: 0rem;
 }
