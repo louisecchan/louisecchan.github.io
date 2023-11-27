@@ -39,6 +39,84 @@
   .col-2.section-content-r {
     margin-left: -1.5rem !important;
   }
+
+  .col-3 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-4 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-5 {
+    margin-top: -1rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .col-6 {
+    flex: 0 0 40% !important;
+  }
+
+  .col-7 {
+    flex: 0 0 45% !important;
+  }
+
+  .col-11 {
+    flex: 0 0 45% !important;
+  }
+
+  .col-12 {
+    flex: 0 0 45% !important;
+  }
+
+  .numeric-text {
+    font-size: 3rem !important;
+  }
+
+  .numeric-text-3 {
+    font-size: 3rem !important;
+    margin-bottom: 0rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .result-card-top {
+    margin-left: 0rem !important;
+  }
+
+  .result-card-top-2 {
+    margin-top: 1rem !important;
+    margin-left: 0.8rem !important;
+  }
+
+  .result-card-top-4 {
+    margin-top: -1rem !important;
+    margin-bottom: 3rem !important;
+    margin-left: 0rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .result-card-wrapper-top {
+    margin-left: 1rem !important;
+  }
+
+  .result-text.description-3 {
+    margin-top: 1.2rem !important;
+    margin-left: 0rem !important;
+  }
+
+  .result-text.tinder {
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .section-content-l {
+    flex: 100% !important;
+  }
+
+  .tagline {
+    margin-left: 2rem !important;
+  }
 }
 
 @media (max-width: 810px) {
@@ -184,16 +262,19 @@ body {
 .row-2 {
   margin-left: 0.5rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row-3 {
   /* margin-left: 0.5rem; */
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row-4 {
   margin-left: 0.9rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .row.design-question {
@@ -832,7 +913,6 @@ a:hover {
 .result-card-top-4 {
   margin-left: 1.4rem;
   padding-left: 3rem;
-  /* display: inline-block !important; */
 }
 
 .result-card {
@@ -1148,36 +1228,6 @@ a:hover {
 .col-random-2 {
   flex: 0 0 30%;
 }
-
-/* @property --num {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
-}
-
-@keyframes counter {
-  from {
-    --num: 1;
-  }
-  to {
-    --num: 76;
-  }
-}
-
-.counter {
-  animation: counter 5s ease-out forwards;
-  counter-set: num var(--num);
-}
-
-.counter::before {
-  content: counter(num);
-}
-
-.number {
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-} */
 
 .fade-in {
   opacity: 0;
