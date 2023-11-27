@@ -23,6 +23,15 @@
     margin-left: 0rem !important;
   }
 
+  .grid {
+    margin-left: 2rem !important;
+  }
+
+  .grid-cols-3 {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
   .result-card-wrapper-1,
   .result-card-wrapper-2 {
     flex-wrap: wrap !important;
