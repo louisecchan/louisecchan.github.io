@@ -17,6 +17,11 @@
     top: 104px !important;
   }
 
+  .col-random {
+    flex: 100% !important;
+    margin-left: 0.9rem !important;
+  }
+
   .col-1.empty {
     display: none !important;
   }
@@ -622,10 +627,10 @@ a:hover {
 .section-content-l {
   background: #f8f8f8;
   height: 50vh;
-  width: 63vw;
+  /* width: 63vw; */
   margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0.8rem;
+  margin-right: 1rem;
   text-wrap: wrap;
 }
 
@@ -675,7 +680,7 @@ a:hover {
 }
 
 .research-goals-outline {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 .background {
@@ -1129,6 +1134,14 @@ a:hover {
 
 .col-12 {
   flex: 0 0 65%;
+}
+
+.col-random-1 {
+  flex: 0 0 63%;
+}
+
+.col-random-2 {
+  flex: 0 0 30%;
 }
 
 /* @property --num {
