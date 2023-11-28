@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function animateNumber(element, target) {
     let start = 28;
-    const stepTime = Math.abs(Math.floor(2000 / (target - start)));
+    const stepTime = Math.abs(Math.floor(1000 / (target - start)));
 
     const timer = setInterval(() => {
       start++;
