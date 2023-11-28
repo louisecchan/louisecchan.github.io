@@ -357,6 +357,10 @@
   }
 }
 
+.wolt-heading {
+  width: 90vw !important;
+}
+
 @media (max-width: 810px) {
   .col {
     flex: 100%;
@@ -1771,4 +1775,15 @@ img.hover-shadow {
   right: 55px;
   font-size: 25px;
   margin-left: 50px;
+}
+
+.wolt-desc {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wolt-heading {
+  float: left;
 }

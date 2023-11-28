@@ -3,7 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Wolt UX Study</title>
+    <link rel="stylesheet" href="./files/style.css" />
   </head>
-  <body></body>
+  <body class="ux-page">
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <div id="myNav" class="overlay responsive split-content header-center">
+      <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="{1.5}"
+          stroke="currentColor"
+          className="w-6 h-6"
+          width="40px"
+          height="40px"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </a>
+      <nav class="overlay-content nav-menu w-nav-menu">
+        <ul class="header-navigation main">
+          <li class="nav-item-wrapper">
+            <a href="./index.html" class="ux-nav-button responsive">Home</a>
+          </li>
+          <li class="nav-item-wrapper">
+            <a
+              href="./case-studies.html"
+              onclick="closeNav()"
+              class="ux-nav-button-desktop"
+              >Hinge</a
+            >
+          </li>
+          <li class="nav-item-wrapper-mobile">
+            <a
+              href="javascript:void(0)"
+              onclick="closeNav()"
+              class="ux-nav-button-mobile"
+              >Hinge UX</a
+            >
+          </li>
+          <li class="nav-item-wrapper">
+            <a href="./wolt.html" class="ux-nav-button">Wolt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="wolt-heading">
+      <br />
+      <br />
+      <h1 class="wolt-desc">
+        Hi, thanks for visiting. Shoot me an email if you're curious about this
+        project (NDA): louisecchchan@gmail.com
+      </h1>
+    </div>
+  </body>
 </html>
