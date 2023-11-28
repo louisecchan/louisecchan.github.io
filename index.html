@@ -77,11 +77,46 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-0">
           <section class="introduction">
-            <div class="typewriter">
-              <h1>Hey! I'm Lou.</h1>
-            </div>
+            <!-- <div class="typewriter"> -->
+            <h1 id="hello"></h1>
+            <!-- </div> -->
+            <script>
+              const phrases = [
+                "Hey! I'm Lou.",
+                "你好，我是Lou.",
+                "Salut, je m’appelle Lou.",
+                "Hallo, ich bin Lou.",
+                "Ciao, sono Lou.",
+                "Hey! I'm Lou. :)",
+              ];
+              let currentPhraseIndex = 0;
+              let i = 0;
+              let speed = 90;
+
+              function typeWriter() {
+                const phrase = phrases[currentPhraseIndex];
+                if (i < phrase.length) {
+                  document.getElementById("hello").innerHTML +=
+                    phrase.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                } else if (currentPhraseIndex < phrases.length - 1) {
+                  setTimeout(changePhrase, 1000);
+                }
+              }
+
+              function changePhrase() {
+                document.getElementById("hello").innerHTML = "";
+                i = 0;
+                currentPhraseIndex++;
+                typeWriter();
+              }
+
+              typeWriter();
+            </script>
+
             <div class="text-fade-up">
               <h2>
                 Your friendly

@@ -191,6 +191,10 @@
     margin-left: 0.9rem !important;
   }
 
+  .col-0 {
+    flex: 0 0 85% !important;
+  }
+
   .col-1.empty {
     display: none !important;
   }
@@ -1466,6 +1470,11 @@ a:hover {
 
 .col.hero-image {
   /* margin-right: 0.1rem; */
+}
+
+.col-0 {
+  flex: 0 0 55%;
+  width: 100%;
 }
 
 .col-1 {
