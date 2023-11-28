@@ -1657,8 +1657,8 @@ a:hover {
 .close {
   color: #999;
   position: absolute;
-  top: 10px;
-  right: 25px;
+  top: 30px;
+  right: 110px;
   font-size: 35px;
   font-weight: bold;
 }
