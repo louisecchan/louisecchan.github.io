@@ -1,4 +1,96 @@
 @media screen and (max-width: 600px) {
+  /* Mobile menu */
+
+.openBtn {
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  z-index: 2;
+  display: block !important;
+  color: #000 !important;
+
+}
+
+.ux-nav-button-mobile {
+  display: block !important;  
+}
+
+.ux-nav-button-desktop {
+  display: none !important;
+
+}
+
+.header-navigation {
+  justify-content: center !important;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 8.8rem !important;
+}
+
+.header-navigation.main {
+  text-align: center !important;
+  flex-direction: column !important;
+  flex: none;
+  order: 0;
+  justify-content: space-between;
+  align-self: auto;
+  align-items: center !important;
+  margin-right: 0rem !important;
+}
+
+.nav-item-wrapper a {
+  display: block;
+}
+  
+.split-content.header-center {
+    margin-top: 0rem !important;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block
+    width: 100vw;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closeBtn {
+    display: block !important;
+    position: absolute !important;
+    top: 0px !important;
+    right: 30px !important;
+    font-size: 60px !important;
+  }
+
+  /* Other crap */
+
   #word-vomit,
   #takeaways-text {
     color: #000 !important;
@@ -75,18 +167,6 @@
   .wireframe-2 {
     width: 80vw !important;
     margin-left: 2rem !important;
-  }
-
-  .nav-menu a {
-    display: none;
-  }
-  .nav-menu a.icon {
-    float: right;
-    display: block;
-  }
-
-  .responsive {
-    display: block;
   }
 
   .image1 {
@@ -282,6 +362,15 @@
     object-position: center;
     margin-top: -2rem;
     margin-bottom: 1rem;
+    padding-right: 1.3rem !important;
+  }
+
+.section-content-l,  .research-goals-outline {
+   margin-right: 2rem !important;
+}
+
+  .col-2.section-content-r {
+    margin-right: 2rem !important;
   }
 }
 
@@ -734,6 +823,18 @@ a:hover {
 }
 
 .ux-nav-button {
+  font-family: product, sans-serif;
+  font-size: 1.1rem;
+}
+
+
+.ux-nav-button-desktop {
+  font-family: product, sans-serif;
+  font-size: 1.1rem;
+}
+
+.ux-nav-button-mobile {
+  display: none;
   font-family: product, sans-serif;
   font-size: 1.1rem;
 }
@@ -1495,4 +1596,12 @@ a:hover {
 
 .result-card-top.numeric-text.dark-bg.col-15 {
   margin-left: 0rem;
+}
+
+.overlay .closeBtn {
+  display: none;
+}
+
+.openBtn {
+  display: none;
 }

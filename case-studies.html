@@ -41,27 +41,44 @@
     </script>
   </head>
   <body class="ux-page">
-    <script src="./files/hamburger.js"></script>
-    <div class="split-content header-center">
-      <nav class="nav-menu w-nav-menu">
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+     document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+
+    <div id="myNav" class="overlay responsive split-content header-center">
+      <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" width="40px" height="40px">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+</svg>
+</a>
+      <nav class="overlay-content nav-menu w-nav-menu">
         <ul class="header-navigation main">
           <li class="nav-item-wrapper">
             <a href="./index.html" class="ux-nav-button responsive">Home</a>
           </li>
           <li class="nav-item-wrapper">
-            <a href="./case-studies.html" class="ux-nav-button">Hinge</a>
+            <a href="./case-studies.html"  onclick="closeNav()" class="ux-nav-button-desktop">Hinge</a>
+          </li>
+          <li class="nav-item-wrapper-mobile">
+            <a href="javascript:void(0)"  onclick="closeNav()" class="ux-nav-button-mobile">Hinge</a>
           </li>
           <li class="nav-item-wrapper">
             <a href="./wolt.html" class="ux-nav-button">Wolt</a>
           </li>
         </ul>    
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
       </nav>
-
-
     </div>
+    <span class="openBtn" onclick="openNav()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"   width="30px"
+  height="30px">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+</svg>
+</span>
+
     <div class="page-wrapper ux">
       <div class="section-1 hinge">
         <div class="row">
