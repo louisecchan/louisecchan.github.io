@@ -486,8 +486,8 @@
 
 :root {
   --primary-color: #111111;
-  --secondary-color: #363636;
   --flow-space: 1rem;
+  --secondary-color: #363636;
 }
 
 * {
@@ -1778,7 +1778,7 @@ img.hover-shadow {
 }
 
 .wolt-desc {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -1786,4 +1786,31 @@ img.hover-shadow {
 
 .wolt-heading {
   float: left;
+}
+
+.borderless-input {
+  border: none;
+  outline: 2px solid #000;
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.3rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+#arrow-button {
+  all: unset;
+  position: absolute;
+  right: 100;
+  top: 0;
+  margin-top: 0.2rem;
+  margin-left: 0.8rem;
+}
+
+#arrow-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
