@@ -1695,8 +1695,8 @@ a:hover {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  /* right: 0;
+  border-radius: 3px 0 0 3px; */
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -1741,7 +1741,7 @@ img.hover-shadow {
 
 .sidenav {
   height: 100%;
-  /* width: 0; */
+
   position: fixed;
   z-index: 99;
   top: 0;
