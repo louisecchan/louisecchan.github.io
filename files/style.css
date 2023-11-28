@@ -1,52 +1,50 @@
 @media screen and (max-width: 600px) {
   /* Mobile menu */
 
-.openBtn {
-  position: absolute;
-  top: 2%;
-  right: 4%;
-  z-index: 2;
-  display: block !important;
-  color: #000 !important;
+  .openBtn {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    z-index: 2;
+    display: block !important;
+    color: #000 !important;
+  }
 
-}
+  .ux-nav-button-mobile {
+    display: block !important;
+  }
 
-.ux-nav-button-mobile {
-  display: block !important;  
-}
+  .ux-nav-button-desktop {
+    display: none !important;
+  }
 
-.ux-nav-button-desktop {
-  display: none !important;
+  .header-navigation {
+    justify-content: center !important;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 7.2rem !important;
+  }
 
-}
+  .header-navigation.main {
+    text-align: center !important;
+    flex-direction: column !important;
+    flex: none;
+    order: 0;
+    justify-content: space-between;
+    align-self: auto;
+    align-items: center !important;
+    margin-right: 0rem !important;
+  }
 
-.header-navigation {
-  justify-content: center !important;
-  align-items: center;
-  margin-bottom: 0;
-  padding-left: 8.8rem !important;
-}
+  .nav-item-wrapper a {
+    display: block;
+  }
 
-.header-navigation.main {
-  text-align: center !important;
-  flex-direction: column !important;
-  flex: none;
-  order: 0;
-  justify-content: space-between;
-  align-self: auto;
-  align-items: center !important;
-  margin-right: 0rem !important;
-}
-
-.nav-item-wrapper a {
-  display: block;
-}
-  
-.split-content.header-center {
+  .split-content.header-center {
     margin-top: 0rem !important;
-}
+  }
 
-.overlay {
+  .overlay {
     height: 100%;
     width: 0;
     position: fixed;
@@ -71,8 +69,7 @@
     text-decoration: none;
     font-size: 36px;
     color: #000000;
-    display: block
-    width: 100vw;
+    display: block;
     transition: 0.3s;
   }
 
@@ -365,9 +362,10 @@
     padding-right: 1.3rem !important;
   }
 
-.section-content-l,  .research-goals-outline {
-   margin-right: 2rem !important;
-}
+  .section-content-l,
+  .research-goals-outline {
+    margin-right: 2rem !important;
+  }
 
   .col-2.section-content-r {
     margin-right: 2rem !important;
@@ -826,7 +824,6 @@ a:hover {
   font-family: product, sans-serif;
   font-size: 1.1rem;
 }
-
 
 .ux-nav-button-desktop {
   font-family: product, sans-serif;
