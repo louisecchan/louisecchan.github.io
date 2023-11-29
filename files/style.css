@@ -3,6 +3,31 @@
     display: none !important;
   }
 
+  #overview {
+    padding-left: 0.8rem !important;
+  }
+
+  .section-content-r {
+    padding-left: 1.4rem !important;
+  }
+
+  .col-random-2 {
+    padding-left: 1.5rem !important;
+  }
+
+  .row {
+    padding-left: 1rem !important;
+  }
+
+  .result-card-wrapper-1,
+  .result-card-wrapper-2 {
+    width: 100vw !important;
+  }
+
+  .result-card {
+    width: 50vw !important;
+  }
+
   /* Mobile menu */
 
   .openBtn {
@@ -181,18 +206,23 @@
   .section-5,
   .section-7,
   .section-9 {
-    margin-right: 1.5rem !important;
+    padding-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+
+  .needfinding-content.indented {
+    margin-left: 2rem !important;
   }
 
   .col-random-1 {
     flex: 63% !important;
-    margin-left: 0.9rem !important;
-    margin-right: 1.5rem !important;
+    /* margin-left: 0.9rem !important;
+    margin-right: 1.5rem !important; */
   }
 
   .col-random-2 {
     flex: 63% !important;
-    margin-left: 0.9rem !important;
+    /* margin-left: 0.9rem !important; */
   }
 
   .col-0 {
@@ -506,13 +536,13 @@ body {
 }
 
 .row {
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   display: flex;
   flex-wrap: wrap;
 }
 
 .row-2 {
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -549,7 +579,7 @@ body {
 }
 
 .row.design-question {
-  margin-left: 2.8rem;
+  margin-left: 0rem;
 }
 
 div {
@@ -881,7 +911,8 @@ a:hover {
   justify-content: space-between;
   align-self: auto;
   align-items: center;
-  margin-right: 3.5rem;
+  padding-right: 2rem;
+  margin-right: 3rem;
 }
 
 .page-wrapper {
@@ -939,8 +970,8 @@ a:hover {
 .section-3 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  /* margin-right: 1.5rem; */
+  /* margin-left: 1.5rem; */
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
@@ -959,8 +990,8 @@ a:hover {
 .section-5 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  /* margin-right: 1.5rem;
+  margin-left: 1.5rem; */
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
@@ -975,8 +1006,8 @@ a:hover {
 .section-7 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  /* margin-right: 1.5rem;
+  margin-left: 1.5rem; */
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
@@ -991,8 +1022,8 @@ a:hover {
 .section-9 {
   background-color: #000;
   margin-top: 2.5rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  /* margin-right: 1.5rem;
+  margin-left: 1.5rem; */
   padding-top: 2.5rem;
   padding-bottom: 4.5rem;
 }
