@@ -6,10 +6,9 @@
   .close {
     color: #999;
     position: absolute;
-    top: 20px;
+    top: 20px !important;
     right: 110px;
     font-size: 35px;
-    font-weight: bold;
   }
 
   /* page in general */
@@ -160,10 +159,12 @@
   }
 
   .needfinding-content {
-    margin-left: ;
     margin-bottom: 3rem !important;
   }
 
+  .needfinding-content.indented {
+    font-size: 1.1rem !important;
+  }
   .needfinding-content.bulletpoint.tagline.light,
   .interview-questions {
     margin-left: 0rem !important;
