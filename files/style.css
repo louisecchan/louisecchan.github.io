@@ -6,8 +6,8 @@
   .close {
     color: #999;
     position: absolute;
-    top: 20px !important;
-    right: 110px;
+    top: 10px !important;
+    right: 90px;
     font-size: 35px;
   }
 
@@ -19,7 +19,7 @@
 
   .section-content-r {
     padding-left: 1.4rem !important;
-    height: 50vh !important;
+    height: 55vh !important;
   }
 
   .col-random-2 {
@@ -162,9 +162,10 @@
     margin-bottom: 3rem !important;
   }
 
-  .needfinding-content.indented {
+  /* .needfinding-content.indented {
     font-size: 1.1rem !important;
-  }
+  } */
+
   .needfinding-content.bulletpoint.tagline.light,
   .interview-questions {
     margin-left: 0rem !important;
